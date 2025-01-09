@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{  
+  width: 100%;
+  height: 100vh;
+  /* background: url('https://images4.alphacoders.com/119/thumb-1920-1199541.jpg') no-repeat/center cover; */
+  background-image: url('https://images4.alphacoders.com/119/thumb-1920-1199541.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
