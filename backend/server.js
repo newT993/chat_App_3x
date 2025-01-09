@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(express.urlencoded({ extended: false}))
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:5173'],
+    origin: ['http://localhost:3000', 'http://localhost:5173','https://chat-app-3x.onrender.com'],
     credentials: true
 }))
 
